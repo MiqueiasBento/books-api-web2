@@ -1,0 +1,8 @@
+export interface Book {
+  id: string | number;
+  title: string;
+  author: string;
+  publishedYear: number;
+  available: boolean;
+  createdAt: string;
+}
